@@ -47,8 +47,6 @@
 #define PY_SSIZE_T_CLEAN
 
 #ifdef FEAT_GUI_MACVIM
-# include <Python/Python.h>
-#else
 # include <Python.h>
 #endif
 
